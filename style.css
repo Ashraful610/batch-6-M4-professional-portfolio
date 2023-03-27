@@ -19,6 +19,11 @@ h1{
 .info{
     padding-left: 40px;
     width: 50%;
+    height: 80%;
+}
+.info p{
+    padding-right: 160px;
+    line-height: 25px;
 }
 .info a{
     background-image: linear-gradient(orange, tomato);
@@ -28,6 +33,7 @@ h1{
     color: white;
 }
 .img-div{
+    height: 80%;
     width: 50%;
     display: flex;
     justify-content: center;
@@ -35,4 +41,13 @@ h1{
 .img-div img{
     padding: 10px;
     width: 80%;
+}
+.second-section{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    
 }
