@@ -1,3 +1,35 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+.header{
+    height: 100vh;
+    /* width: 100vw; */
+    display: flex;
+    align-items: center;
+}
+h1{
+    font-size: 50px;
+}
+.orange-color{
+    color: orange;
+}
+.info{
+    padding-left: 40px;
+    width: 50%;
+}
+.info a{
+    background-image: linear-gradient(orange, tomato);
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 5px ;
+    color: white;
+}
+.img-div{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.img-div img{
+    padding: 10px;
+    width: 80%;
+}
