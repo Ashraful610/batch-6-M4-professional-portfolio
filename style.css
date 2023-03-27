@@ -63,6 +63,9 @@ h1{
     padding: 20px;
     border-radius: 10px;
 }
+.title{
+    margin: 20px;
+}
 .full-web-developer{
     border-left: 8px solid  orange ;
 }
@@ -71,4 +74,8 @@ h1{
 }
 .common-div h1{
     font-size: 40px;
+}
+footer h4{
+    margin-top: 100px;
+    text-align: center;
 }
